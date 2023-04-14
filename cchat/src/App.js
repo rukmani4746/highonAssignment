@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Join />}>
+        <Route exact path="/" element={<Join />} />
 
-        </Route path="/chat" element={<Chat />}>
+        <Route path="/Chat" element={<Chat />} />
       </Routes>
       </BrowserRouter>
       

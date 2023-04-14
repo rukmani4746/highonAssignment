@@ -1,4 +1,4 @@
-.JoinPage{
+.JoinPage{ 
     background-color: rgb(31, 29, 29);
     width: 100vw;
     height: 100vh;
@@ -8,7 +8,6 @@
 }
 
 .JoinContainer{
-   
    
     width: 50%;
     display: flex;
@@ -54,4 +53,4 @@
 }
 .joinbtn:hover{
     background-color: rgb(180, 27, 58);
-}
+} 
